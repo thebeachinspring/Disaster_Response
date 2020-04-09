@@ -32,7 +32,7 @@ The Project is divided in the following Sections:
 
 <a name="dependencies"></a>
 ### Dependencies
-* Python 3.5+ (I used Python 3.7)
+* Python 3.5+
 * Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
 * Natural Language Process Libraries: NLTK
 * SQLlite Database Libraqries: SQLalchemy
@@ -42,7 +42,7 @@ The Project is divided in the following Sections:
 ### Installing
 Clone this GIT repository:
 ```
-git clone https://github.com/matteobonanomi/disaster-response.git
+git clone https://github.com/thebeachinspring/Disaster_Response.git
 ```
 <a name="executing"></a>
 ### Executing Program:
@@ -72,7 +72,7 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 <a name="authors"></a>
 ## Authors
 
-* [Matteo Bonanomi](https://github.com/matteobonanomi)
+* [Emily Spring](https://github.com/thebeachinspring/)
 
 <a name="license"></a>
 ## License
@@ -89,12 +89,13 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 
 1. This is an example of a message you can type to test Machine Learning model performance
 
-![Sample Input](screenshots/sample_input.png)
+![Sample Input](screenshots/Message.png)
 
 2. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green
 
-![Sample Output](screenshots/sample_output.png)
+![Sample Output](screenshots/Message_result.png)
 
 3. The main page shows some graphs about training dataset, provided by Figure Eight
 
-![Main Page](screenshots/main_page.png)
+![Main Page Title](screenshots/Header.png)
+![Main Page Graph](screenshots/Tool_training.png)
