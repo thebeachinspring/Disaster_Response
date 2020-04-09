@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project
 
-![Intro Pic](screenshots/intro.png)
+![Intro Pic](screenshots/Header.PNG)
 
 ## Table of Contents
 1. [Description](#description)
@@ -89,13 +89,13 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 
 1. This is an example of a message you can type to test Machine Learning model performance
 
-![Sample Input](screenshots/Message.png)
+![Sample Input](screenshots/Message.PNG)
 
 2. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green
 
-![Sample Output](screenshots/Message_result.png)
+![Sample Output](screenshots/Message_result.PNG)
 
 3. The main page shows some graphs about training dataset, provided by Figure Eight
 
-![Main Page Title](screenshots/Header.png)
-![Main Page Graph](screenshots/Tool_training.png)
+![Main Page Title](screenshots/Header.PNG)
+![Main Page Graph](screenshots/Tool_training.PNG)
