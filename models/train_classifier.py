@@ -138,6 +138,14 @@ def evaluate_model(model, X_test, Y_test, category_names):
     overall_accuracy = (Y_pred == Y_test).mean().mean()
 
     print('Average overall accuracy {0:.2f}% \n'.format(overall_accuracy*100))
+    
+    Y_pred_df = pd.DataFrame(Y_pred, columns = category_names)
+    Y_pred_df.head()
+
+    for i in range(36):
+        print(category_names[i],\
+              '\n',\
+               classification_report(Y_test.iloc[:,i], Y_pred_df.iloc[:,i]))
 
 
     pass

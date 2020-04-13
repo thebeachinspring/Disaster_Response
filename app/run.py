@@ -69,6 +69,9 @@ def index():
     cat_names = list(cat_counts_sorted.index)
     cat_counts = list(cat_counts_sorted)
     
+    cat_counts_top_5 = df.iloc[:,4:].sum().sort_values(ascending=False).head(5)
+    cat_names_top_5 = list(cat_counts_top_5.index)
+    
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
     graphs = [
@@ -114,8 +117,27 @@ def index():
                 },
                 'automargin':True
             }        
-        }
+        },
         
+        #Graph 3
+        {
+            'data': [
+                Bar(
+                    x=cat_names_top_5,
+                    y=cat_counts_top_5
+                )
+            ],
+
+            'layout': {
+                'title': 'Top 5 categories classified',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Category"
+                }
+            }
+        }
     ]
     
     
